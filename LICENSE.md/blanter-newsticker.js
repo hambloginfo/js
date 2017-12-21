@@ -58,11 +58,11 @@ function recent_post_style(){
     document.write(s);
 }
 function recent_post_content(){
-    var s = "<div id='recent_post' title='Նորություն'>";
+    var s = "<div id='recent_post' title='Hamblog.info'>";
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
-    s += "Hamblog.info";
+    s += "Նորություններ";
     s += "</div>";
     }
     s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";
