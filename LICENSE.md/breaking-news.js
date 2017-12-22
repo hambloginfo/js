@@ -1,4 +1,5 @@
 /* Predefined Variables Are:
+Created By Hamlet Xojoyan 2018 All Rights Reserved
  *     blog_url
  *     latest_post
  *     background_color
@@ -6,7 +7,7 @@
  *     scrolling_speed
  *     info_text
  *     close_button
- *     WWW.HAMBLOG.INFO
+ *     www.hamblog.info
  */
 var entries; var feed;
 var feed_url = blog_url.match(/\/$/) ? blog_url : blog_url+"/";
@@ -62,7 +63,7 @@ function recent_post_content(){
     if(info_text){
     s += "<div class='wrapper'>";
     s += "<div class='newstitle'>";
-    s += "Վերջին Հրապարակումներ";
+    s += "BREAKING NEWS";
     s += "</div>";
     }
     s += "  <marquee style='float:left; margin-left:10px; width:82%' scrollAmount='"+scrolling_speed+"'>";
